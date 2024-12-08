@@ -13,4 +13,8 @@ export class TodoService {
     getTodos() {
         return this.todos
     }
+
+    createTodo(item) {
+        this.todos.push(item)
+    }
 }
